@@ -1,0 +1,60 @@
+.container{
+	width: 98%;
+	height: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center;
+}
+
+#author{
+	text-align: right;
+}
+
+#person-info{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+#hobby{
+	text-align: left;
+}
+
+#submenu1 > ul, #submenu2 > ul{
+	display: none;
+}
+
+#submenu1:hover > ul, #submenu2:hover > ul{
+	display: block;
+}
+
+.menu{
+	cursor: pointer;
+	width: 12%;
+	height: 50px;
+	margin-left: 44.5%;
+	text-align: left;
+}
+
+.menu:hover{
+	height: 100px;
+}
+
+.menu:hover #submenu1, .menu:hover #submenu2{
+	display: block;
+}
+
+.left-block{
+	width: 28%;
+	float: left;
+}
+
+.content{
+	width: 42%;
+	float: left;
+}
+
+.right-block{
+	width: 28.5%;	
+	float: left;
+}
